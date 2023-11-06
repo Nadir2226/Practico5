@@ -138,5 +138,10 @@ namespace Practico5
                 Label1.Text = "No se actualizaron los registros";
             }
         }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

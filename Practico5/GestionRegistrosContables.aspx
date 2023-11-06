@@ -13,7 +13,7 @@
             <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="descripcion" DataValueField="id" Height="16px" Width="148px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
             </asp:DropDownList>
             <asp:TextBox ID="TextBox1" runat="server" placeholder="Monto"></asp:TextBox>
-            <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="True">
+            <asp:DropDownList ID="DropDownList2" runat="server" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
                 <asp:ListItem Value="false">Debe</asp:ListItem>
                 <asp:ListItem Value="true">Haber</asp:ListItem>
             </asp:DropDownList>
